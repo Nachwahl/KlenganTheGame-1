@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: Klengan the Game
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
@@ -20,5 +20,5 @@ jobs:
       - uses: josephbmanley/build-godot-action@v1.3.3
         with:
           name: ktg
-          preset: Windows
+          preset: "Windows"
           subdirectory: win_x64 
